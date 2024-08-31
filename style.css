@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #d8f6f7;
+  padding: 20px;
+}
+.timer-container{
+  margin: 150px auto;
+  width: 90%;
+  max-width: 400px;
+  /* background: #0000009c; */
+  background-image: url(./images/AFC\ Web-19.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.clock{
+  width: 100%;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 65px;
+  gap: 25px;
+}
+
+.controls{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  & svg{
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+    cursor: pointer;
+    &:hover{
+      fill: #e94a0b;
+    }
+  }
+}
+
+#play{
+  width: 60px;
+  height: 60px;
+}
