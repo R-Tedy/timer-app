@@ -15,7 +15,7 @@
   width: 90%;
   max-width: 400px;
   /* background: #0000009c; */
-  background-image: url(./images/AFC\ Web-19.jpg);
+  background-image: linear-gradient(#ab242455, #f1c5c5), url(./images/AFC\ Web-19.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
